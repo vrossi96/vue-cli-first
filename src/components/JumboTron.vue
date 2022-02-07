@@ -1,11 +1,17 @@
 <template>
-   <div class="jumbo"></div>
+   <div class="jumbo">
+      <Title />
+   </div>
 </template>
 
 <script>
+import Title from "./Title.vue";
+
 export default {
    name: "JumboTron",
-   components: {},
+   components: {
+      Title,
+   },
 };
 </script>
 
@@ -16,5 +22,8 @@ export default {
    background-position: center;
    background-repeat: no-repeat;
    height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 </style>
