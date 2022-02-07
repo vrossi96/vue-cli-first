@@ -1,0 +1,20 @@
+<template>
+   <div class="jumbo"></div>
+</template>
+
+<script>
+export default {
+   name: "JumboTron",
+   components: {},
+};
+</script>
+
+<style>
+.jumbo {
+   background-image: url(../../public/cool-background.svg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 500px;
+}
+</style>
